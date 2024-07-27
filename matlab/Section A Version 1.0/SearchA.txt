@@ -1,0 +1,122 @@
+Search file for "Section A".
+ 
+Please use "ctrl + F" to find number that corresponds to the equation that you are looking for as it is defined in the Submitted manuscript provided. 
+
+
+
+
+(1)
+Script: Throat_Area
+
+Function: ThroatArea(Cf,Pc,F)
+
+Cf = Coefficient of Thrust
+Pc = The nozzle stagnation pressure
+F = Thrust
+
+
+
+
+(2)
+Script: Chamber_Volume
+
+Function: ChamberVolume(Lstar,At)
+
+Lstar = Characteristic Length
+At = Throat Area
+
+
+
+
+(3 & 4)
+Script: PM_angle
+
+Function(3): PMangle(Me,gammae)
+
+Me = Mach number of gas at the exit
+gammae = Specific heat ratio of exhaust products
+
+
+Function(4): Convergenthalf(vme)
+
+vme = Prandtl-Meyer Angle
+
+
+
+
+(5)
+Script: Chamber_Diameter
+
+Note: If running into problems with matrix calculations initial guesses might have to be manually inputed as a range
+
+Function: ChamberDiameter(Dt, cva, Vc, Lc, x0)
+
+Dc = Diameter of Chamber
+cva = Convergent half angle
+Vc = Volume of the chamber
+Lc = Length of the chamber
+x0 = initial guess 
+
+
+
+
+(6)
+Script: Me_Exit
+
+Function: MeExit(Pc,gamma,gammae,pe)
+
+Pc = The nozzle stagnation pressure
+gamma = Specific heat ratio in chamber
+gammae = Specific heat ratio of exhaust products 
+pe = Atmospheric pressure in Tempe (14.12 psi)
+
+
+
+
+(7)
+Script: Expansion_ratio
+
+Function(Expansion ratio): ExpansionRatio(Me,gammae)
+
+Me = The exit plane Mach number
+gammae = Specific heat ratio of exhaust products 
+
+Function(Nozzle exit area): NozzleExitA(epsilon,At)
+
+epsilon = Expansion ratio
+At = Throat Area
+
+
+
+
+(8)
+Script: Propellant_mdot
+
+Function: PropMdot(Pc,At,R,Tc,gamma)
+
+Pc = The nozzle stagnation pressure
+At = Throat Area
+R = Ideal Gas constant
+Tc = Chamber Temperature
+gamma = Specific heat ratio of chamber
+
+
+(9)
+Script: Velocity_Exhaust_Gasses
+
+Function: VelocityExhaust(Pc,Tc,gammae,R,pe)
+
+Pc = The nozzle stagnation pressure
+Tc = Chamber Temperature
+gammae = Specific heat ratio of exhaust products 
+R = Ideal gas constant
+pe = Atmospheric pressure in Tempe (14.12 psi)
+
+
+Contact me with any questions/suggestions/problems at the email below
+
+School Email:  nfyoung1@asu.edu
+
+
+Created by: Nate Young
+Last Updated: 07/06/2024

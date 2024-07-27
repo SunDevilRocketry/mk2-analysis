@@ -1,0 +1,63 @@
+Search file for "Section C".
+ 
+Please use "ctrl + F" to find number that corresponds to the equation that you are looking for as it is defined in the Submitted manuscript provided. 
+
+
+
+
+(19)
+Script: Diameter_Ratio
+
+Function: DiameterR(B,roe_ox,roe_f,mdot_ox,mdot_f);
+
+B = Experimental multiplier
+roe_ox = Density of oxidizer
+roe_f = Density of fuel
+mdot_ox = Mass flow rate of the oxidizer
+mdot_f = Mass flow rate of the fuel
+
+
+
+(20)
+Script: Orifice_diameter
+
+Function: OrificeD(Cd,mdot_ori,roe,dP)
+
+Cd = Discharge Coefficient
+mdot_ori = Mass flow rate of the orifice wanted
+roe = density of fluid
+dP = Pressure drop across orifice
+
+
+
+(21)
+Script: Valve_ratio_error
+
+Function: ValveRerr(Rd,Df,Dox)
+
+Rd = Ideal diameter ratio
+Df = Diameter of fuel orifices
+Dox = Diameter of oxidizer orifices
+
+
+
+(22)
+Script: Injection_velocity
+
+Function:  InjectorVelo(mdot_ori,roe,Ao)
+
+mdot_ori = Mass flow rate of the orifice wanted
+roe = density of fluid
+Ao = Area of orifice exit
+
+
+
+
+
+Contact me with any questions/suggestions/problems at the email below
+
+School Email:  nfyoung1@asu.edu
+
+
+Created by: Nate Young
+Last Updated: 07/04/2024

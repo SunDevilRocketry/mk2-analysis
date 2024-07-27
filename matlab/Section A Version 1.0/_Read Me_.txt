@@ -1,0 +1,29 @@
+Welcome to “Section A” Version 1.0
+
+This Section is based on the SDR Submitted Manuscript section "A Nozzle and Combustion Chamber" and will unsurprisingly hold equations that will help calculate combustion chamber and nozzle specifications.
+
+There is two different type of files in this folder, Script files and function files. In order to find the syntax for each equation there a text file called "SearchA" where you can search the number that the function is to find what both the function and Script files are called.
+
+To use the script files first open the MATLAB folder in your directory, and input the exact syntax into the MATLAB command window to call the function. Then follow the instruction of what variables to input and write them into the command window. These script files also *should* have matrix capabilities so feel free to input those instead to test multiple sets of values (*make sure all matrices have same length*). The variables that are the inputs and output of each file are defined in the prompts and can be called in different scripts/files by calling the variable told. 
+
+Note:
+- Once again if using matrices make sure they are the same length
+- Check units to make sure they follow the units given in the prompts and/or are dimensionally consistent
+- "cntrl + C" can be used to terminate any script file while it is running
+
+
+To use the function files simply open the function directory and call the function with the syntax given and inputing variables which should be defined below it, should be very self explanatory. The functions *should* have matrix capabilities so they can be inputed and outputted. The functions are more useful in calling your own files and doing a lot of calculations at once whereas the script files are much more user friendly. 
+
+Notes:
+- Ensure that each value inputed is in the correct place and that the units used are dimensionally consistent
+- Make sure the all the matrices used are all the same length
+
+
+Contact me with any questions/suggestions/problems at the email below
+	(especially if a file does not have matrix capabilities)
+
+School Email:  nfyoung1@asu.edu
+
+
+Created by: Nate Young
+Last Updated: 07/04/2024
