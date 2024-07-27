@@ -6,3 +6,5 @@
 function Vc = ChamberVolume(Lstar,At)
 Vc = Lstar.*At; 
 end
+
+% this is just how Lstar is defined
